@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device tree -->
+  <project name="RenoirPixelExperienceTrees/device_xiaomi_renoir" path="device/xiaomi/renoir" revision="thirteen" remote="github"/>
+  <project name="RenoirPixelExperienceTrees/device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="thirteen" remote="github"/>
+
+  <!-- Firmware -->
+  <project name="RenoirPixelExperienceTrees/vendor_xiaomi_renoir-firmware" path="vendor/xiaomi/renoir-firmware" revision="thirteen" remote="github"/>
+
+  <!-- Hardware -->
+  <project name="RenoirPixelExperienceTrees/android_hardware_xiaomi" path="hardware/xiaomi" revision="thirteen" remote="github"/>
+
+  <!-- Kernel -->
+  <project name="RenoirPixelExperienceTrees/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="thirteen" remote="github"/>
+
+  <!-- Vendor -->
+  <project name="RenoirPixelExperienceTrees/vendor_xiaomi_renoir" path="vendor/xiaomi/renoir" revision="thirteen" remote="github"/>
+  <project name="RenoirPixelExperienceTrees/vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" revision="thirteen" remote="github"/>
+
+</manifest>
