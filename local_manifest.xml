@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote fetch="https://gitlab.pixelexperience.org/android/" name="pe"/>
   <!-- Device tree -->
-  <project name="RenoirPixelExperienceTrees/device_xiaomi_renoir" path="device/xiaomi/renoir" revision="thirteen" remote="github"/>
-  <project name="RenoirPixelExperienceTrees/device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="thirteen" remote="github"/>
+  <project name="PixelExperience-Devices/device_xiaomi_renoir" path="device/xiaomi/renoir" revision="thirteen" remote="github"/>
+  <project name="PixelExperience-Devices/device_xiaomi_sm7350-common" path="device/xiaomi/sm7350-common" revision="thirteen" remote="github"/>
 
   <!-- Firmware -->
-  <project name="RenoirPixelExperienceTrees/vendor_xiaomi_renoir-firmware" path="vendor/xiaomi/renoir-firmware" revision="thirteen" remote="github"/>
+   <project name="vendor-blobs/vendor_xiaomi_renoir-firmware" path="vendor/xiaomi/renoir-firmware" revision="thirteen" remote="pe"/>
 
   <!-- Hardware -->
-  <project name="RenoirPixelExperienceTrees/android_hardware_xiaomi" path="hardware/xiaomi" revision="thirteen" remote="github"/>
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="thirteen" remote="github"/>
 
   <!-- Kernel -->
-  <project name="RenoirPixelExperienceTrees/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="thirteen" remote="github"/>
+  <project name="PixelExperience-Devices/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="thirteen" remote="github"/>
 
   <!-- Vendor -->
-  <project name="RenoirPixelExperienceTrees/vendor_xiaomi_renoir" path="vendor/xiaomi/renoir" revision="thirteen" remote="github"/>
-  <project name="RenoirPixelExperienceTrees/vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" revision="thirteen" remote="github"/>
+  <project name="vendor-blobs/vendor_xiaomi_renoir" path="vendor/xiaomi/renoir" revision="thirteen" remote="pe"/>
+  <project name="vendor-blobs/vendor_xiaomi_sm7350-common" path="vendor/xiaomi/sm7350-common" revision="thirteen" remote="pe"/>
 
 </manifest>
