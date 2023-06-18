@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitlab.pixelexperience.org/android/" name="pe"/>
   <!-- Device tree -->
-  <project name="PixelExperience-Devices/device_xiaomi_renoir" path="device/xiaomi/renoir" revision="thirteen" remote="github"/>
+  <project name="PawiX25/device_xiaomi_renoir" path="device/xiaomi/renoir" revision="thirteen" remote="github"/>
   <project name="PixelExperience-Devices/device_xiaomi_sm7350-common" path="device/xiaomi/sm7350-common" revision="thirteen" remote="github"/>
 
   <!-- Firmware -->
